@@ -1,0 +1,45 @@
+{
+  "name": "© 𝚀𝚄𝙴𝙴𝙽 𝙰𝙽𝙹𝚄 𝗑ᴾᴿᴼ (2.5)",
+  "description": "© 𝚀𝚄𝙴𝙴𝙽 �𝙰𝙽𝙹𝚄 𝗑ᴾᴿᴼ has been designed to make things easier and fun while using WhatsApp. 👨‍💻❤️",
+  "logo": "https://telegra.ph/file/adc46970456c26cad0c15.jpg",
+  "keywords": ["nodejs", "bot", "whatsapp bot", "multi device", "prabath-md"],
+  "success_url": "/",
+  "env": {
+    "SESSION_ID": {
+      "description": "Put the session-id here.",
+      "required": true,
+      "value": "ANJU-XPRO~"
+    },
+    "BOT_NUMBER": {
+      "description": "The bot's phone number(Web accout created)",
+      "required": true,
+      "value": "9478556644"
+    },
+    "PASSWORD": {
+      "description": "Password for the bot (if any)",
+      "required": true,
+      "value": ""
+    },
+    "SUDO": {
+      "description": "Comma-separated list of sudo numbers",
+      "required": true,
+      "value": "94717775628,94758775628"
+    },
+    "PORT": {
+      "description": "Port to run the bot on",
+      "required": true,
+      "value": "3000"
+    },
+    "SESSION_DIR": {
+      "description": "Session directory",
+      "required": true,
+      "value": "sess"
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
+    }
+  ],
+  "stack": "heroku-24"
+}

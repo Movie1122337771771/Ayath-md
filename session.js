@@ -45,15 +45,15 @@ module.exports = {
     process.env.SESSION_ID ||
     "ANJU-XPRO~6843bddf8a456b7966aa63ad",
   BOT_NUMBER:
-    process.env.BOT_NUMBER || "94717775628",
+    process.env.BOT_NUMBER || "0753400536",
   PASSWORD: 
-    process.env.PASSWORD || "",
+    process.env.PASSWORD || "Star pay 8",
   SUDO: process.env.SUDO
     ? process.env.SUDO.split(",")
-    : ["94717775628", "94758775628"],
+    : ["94729478513", "94758775628"],
   PORT: process.env.PORT || "3000",
   SESSION_DIR: process.env.SESSION_DIR || "sess",
-  TOKEN: "github auth token",
-  USERNAME: "github username",
-  REPO_NAME: "github repo name",
+  TOKEN: "7RbI8PbYaLKNwOKcLnAgVrvd7L37Ld4VJoOr",
+  USERNAME: "Movie1122337771771",
+  REPO_NAME: "Ayath-md",
 };

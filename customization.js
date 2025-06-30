@@ -345,27 +345,27 @@ ${conf.FOOTER}`.trim();
   },
   AUTOSONG: function (foundSong, currentArtist, nextArtist, config, botNumber, isGroup, groupMetadata) {
     return `
-✨ *『 𝑨𝑵𝑱𝑼 Xᴾᴿᴼ 𝑴𝑼𝑺𝑰𝑪 』* 🎧
+
 
 ━━━━━━━━━━━━━━━━━━━
-🎶 *𝚂𝙾𝙽𝙶 𝙳𝙴𝚃𝙰𝙸𝙻𝚂* 🎼
-╠➤ *𝚃𝚒𝚝𝚕𝚎:* ${foundSong.title}
-╠➤ *𝙰𝚛𝚝𝚒𝚜𝚝:* ${currentArtist.replace(" original", "")}
-╠➤ *𝙳𝚞𝚛𝚊𝚝𝚒𝚘𝚗:* ${foundSong.timestamp || "𝙽/𝙰"}
-╠➤ *𝚅𝚒𝚎𝚠𝚜:* ${foundSong.views.toLocaleString() || "𝙽/𝙰"}
-╠➤ *𝚄𝚙𝚕𝚘𝚊𝚍𝚎𝚍:* ${foundSong.ago || "𝙽/𝙰"}
-╠➤ *𝙽𝚎𝚡𝚝 𝙰𝚛𝚝𝚒𝚜𝚝:* ${nextArtist}
+
+☘️ *𝚃𝚒𝚝𝚕𝚎:* ${foundSong.title}
+🕺 *𝙰𝚛𝚝𝚒𝚜𝚝:* ${currentArtist.replace(" original", "")}
+⏱️ *𝙳𝚞𝚛𝚊𝚝𝚒𝚘𝚗:* ${foundSong.timestamp || "𝙽/𝙰"}
+👁️‍🗨️ *𝚅𝚒𝚎𝚠𝚜:* ${foundSong.views.toLocaleString() || "𝙽/𝙰"}
+💁 *𝚄𝚙𝚕𝚘𝚊𝚍𝚎𝚍:* ${foundSong.ago || "𝙽/𝙰"}
+💃 *𝙽𝚎𝚡𝚝 𝙰𝚛𝚝𝚒𝚜𝚝:* ${nextArtist}
 ━━━━━━━━━━━━━━━━━━━
-📌 *𝚈𝚘𝚞𝚃𝚞𝚋𝚎 𝙻𝙸𝙽𝙺:* 
+🔗 *𝚈𝚘𝚞𝚃𝚞𝚋𝚎 𝙻𝙸𝙽𝙺:* 
     ${foundSong.url}
     ${isGroup ? `
 
-━━━━━━━━━━━━━━━━━━━
-👥 *𝙶𝚁𝙾𝚄𝙿 𝙸𝙽𝙵𝙾* 
-╠➤ *𝙽𝚊𝚖𝚎:* ${groupMetadata?.subject || "Group"}
-╠➤ *𝙰𝚍𝚖𝚒𝚗:* ${config.MNAME}
-╠➤ *𝙱𝚘𝚝 𝙽𝚞𝚖𝚋𝚎𝚛:* ${botNumber}
-━━━━━━━━━━━━━━━━━━━
+
+
+ ${groupMetadata?.subject || "Group"}
+ ${config.MNAME}
+ ${botNumber}
+
 ` : ""}
 ${config.FOOTER || "🎼 Enjoy the music! 🎧"}`.trim();
   },

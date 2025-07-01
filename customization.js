@@ -126,7 +126,7 @@ Twitter URL: ${q}
 🎬 ${movieData.title}
 🌟 *Imdb Rating:* ${movieData.rating?.value || "𝙽/𝙰"} ★
 📆 *First Aired:* ${movieData.metadata?.releaseDate || "𝙽/𝙰"}
-🌍  *Country:* ${movieData.metadata?.country || "𝙽/𝙰"}
+🌍 *Country:* ${movieData.metadata?.country || "𝙽/𝙰"}
 ⏳ *Duration:* ${movieData.metadata?.runtime || "𝙽/𝙰"}
         `.trim();
   },
@@ -137,8 +137,8 @@ Twitter URL: ${q}
 🎬 ${title}
        
 🌟 *Rating:* ${rating?.value || "𝙽/𝙰"} ★
-📅  *First Aired:* ${metadata?.releaseDate || "𝙽/𝙰"}
-🌍  *Country:* ${metadata?.country || "𝙽/𝙰"}
+📅 *First Aired:* ${metadata?.releaseDate || "𝙽/𝙰"}
+🌍 *Country:* ${metadata?.country || "𝙽/𝙰"}
 ⏳ *Duration:* ${metadata?.runtime || "𝙽/𝙰"}
 🎭 *Genres:* ${metadata?.genres.map((g) => `#${g}`).join(" • ") || "𝙽/𝙰"} 
         `.trim();

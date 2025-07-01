@@ -121,26 +121,26 @@ Twitter URL: ${q}
   },
   SINHALASUB: function (movieData) {
     return `
- *『 𝑵𝑰𝑶𝑶𝑵 Xᴷᴵᴺᴳ 𝑭𝑰𝑳𝑴 』* 🍿
+ 
 
-✨ *𝙼𝚘𝚟𝚒𝚎 𝙽𝚊𝚖𝚎:* ${movieData.title}
-⭐ *𝙸𝙼𝙳𝙱 𝚁𝚊𝚝𝚒𝚗𝚐:* ${movieData.rating?.value || "𝙽/𝙰"} ★
-📆 *𝚁𝚎𝚕𝚎𝚊𝚜𝚎 𝙳𝚊𝚝𝚎:* ${movieData.metadata?.releaseDate || "𝙽/𝙰"}
-🌐 *𝙲𝚘𝚞𝚗𝚝𝚛𝚢:* ${movieData.metadata?.country || "𝙽/𝙰"}
-⏱️ *𝙳𝚞𝚛𝚊𝚝𝚒𝚘𝚗:* ${movieData.metadata?.runtime || "𝙽/𝙰"}
+🎬 ${movieData.title}
+🌟 *Imdb Rating:* ${movieData.rating?.value || "𝙽/𝙰"} ★
+📆 *First Aired:* ${movieData.metadata?.releaseDate || "𝙽/𝙰"}
+🌍  *Country:* ${movieData.metadata?.country || "𝙽/𝙰"}
+⏳ *Duration:* ${movieData.metadata?.runtime || "𝙽/𝙰"}
         `.trim();
   },
   CINESUBZ: function (title, metadata, rating) {
     return `
- *『 𝑵𝑰𝑶𝑶𝑵 Xᴷᴵᴺᴳ 𝑭𝑰𝑳𝑴 』* 🍿
+ 
 
-✨ *𝙼𝚘𝚟𝚒𝚎 𝙽𝚊𝚖𝚎:* 𝘾𝙝𝙚𝙘𝙠 𝙞𝙩 𝙤𝙪𝙩 → ${title}
+🎬 ${title}
        
-⭐ *𝙸𝙼𝙳𝙱 𝚁𝚊𝚝𝚒𝚗𝚐:* ${rating?.value || "𝙽/𝙰"} ★
-📆 *𝚁𝚎𝚕𝚎𝚊𝚜𝚎 𝙳𝚊𝚝𝚎:* ${metadata?.releaseDate || "𝙽/𝙰"}
-🌐 *𝙲𝚘𝚞𝚗𝚝𝚛𝚢:* ${metadata?.country || "𝙽/𝙰"}
-⏱️ *𝙳𝚞𝚛𝚊𝚝𝚒𝚘𝚗:* ${metadata?.runtime || "𝙽/𝙰"}
-🎭 *𝙶𝚎𝚗𝚛𝚎𝚜:* ${metadata?.genres.map((g) => `#${g}`).join(" • ") || "𝙽/𝙰"} 
+🌟 *Rating:* ${rating?.value || "𝙽/𝙰"} ★
+📅  *First Aired:* ${metadata?.releaseDate || "𝙽/𝙰"}
+🌍  *Country:* ${metadata?.country || "𝙽/𝙰"}
+⏳ *Duration:* ${metadata?.runtime || "𝙽/𝙰"}
+🎭 *Genres:* ${metadata?.genres.map((g) => `#${g}`).join(" • ") || "𝙽/𝙰"} 
         `.trim();
   },
   CINETVSHOW: function (movieResponse) {

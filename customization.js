@@ -123,7 +123,7 @@ Twitter URL: ${q}
     return `
  
 
-🎬 ${movieData.title}
+🎬 *${movieData.title}*
 🌟 *Imdb Rating:* ${movieData.rating?.value || "𝙽/𝙰"} ★
 📆 *First Aired:* ${movieData.metadata?.releaseDate || "𝙽/𝙰"}
 🌍 *Country:* ${movieData.metadata?.country || "𝙽/𝙰"}
@@ -134,7 +134,7 @@ Twitter URL: ${q}
     return `
  
 
-🎬 ${title}
+🎬 *${title}*
        
 🌟 *Rating:* ${rating?.value || "𝙽/𝙰"} 
 📅 *First Aired:* ${metadata?.releaseDate || "𝙽/𝙰"}

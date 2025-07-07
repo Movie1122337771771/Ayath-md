@@ -25,13 +25,13 @@ module.exports = {
 ┃ 📅 Date Today : ${new Date().toLocaleDateString("en-GB", {
       timeZone: "Asia/Colombo",
     })}
-┃ ⌚ Time Now : ${new Date().toLocaleTimeString("en-GB", {
+┃ ⏰ Time Now : ${new Date().toLocaleTimeString("en-GB", {
       timeZone: "Asia/Colombo",
     })}
 ┃
 ┗━━━━━━━━━━━━━━━
-┏━━━━❮📝 ᴅᴇᴛᴇʟᴇꜱ 📝❯━━━
-┃🗣️ 𝚄𝚜𝚎𝚛 : ${pushname}
+┏━━━━❮🎀 ᴅᴇᴛᴇʟᴇꜱ 🎀❯━━━
+┃🫟 𝚄𝚜𝚎𝚛 : ${pushname}
 ┃🤖 𝙱𝚘𝚝 : © 𝑵𝑰𝑶𝑶𝑵 Xᴷᴵᴺᴳ 𝑭𝑰𝑳𝑴 V${packageJson.version}
 ┃📜 𝙿𝚛𝚎𝚏𝚒𝚡 : ${config.PREFIX}
 ┃📚 𝚅𝚎𝚛𝚜𝚒𝚘𝚗 : ${packageJson.version}

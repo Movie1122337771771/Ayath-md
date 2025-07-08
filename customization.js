@@ -31,15 +31,15 @@ module.exports = {
 ┃
 ┗━━━━━━━━━━━━━━━
 ┏━━━━❮🎀 ᴅᴇᴛᴇʟᴇꜱ 🎀❯━━━
-┃🫟 𝚄𝚜𝚎𝚛 : ${pushname}
+┃⚖️ : ${pushname}
 ┃🤖 𝙱𝚘𝚝 : © 𝑵𝑰𝑶𝑶𝑵 Xᴷᴵᴺᴳ 𝑭𝑰𝑳𝑴 V${packageJson.version}
 ┃📜 𝙿𝚛𝚎𝚏𝚒𝚡 : ${config.PREFIX}
 ┃📚 𝚅𝚎𝚛𝚜𝚒𝚘𝚗 : ${packageJson.version}
 ┃📝 𝙿𝚕𝚊𝚝𝚏𝚘𝚛𝚖 : ${os.platform()}
 ┃📟 𝙷𝚘𝚜𝚝 : ${os.hostname()}
-┃🤴𝙾𝚠𝚗𝚎𝚛 : ${config.OWNER_NAME}
+┃🙋𝙾𝚠𝚗𝚎𝚛 : ${config.OWNER_NAME}
 ┃🔊 𝙼𝚘𝚍𝚎 : ${config.MODE}
-┃🍁 𝚄𝚙𝚝𝚒𝚖𝚎 : ${runtime(process.uptime())}
+┃☘️ 𝚄𝚙𝚝𝚒𝚖𝚎 : ${runtime(process.uptime())}
 ┃✨𝙼𝚎𝚖 : ${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(
       2
     )}MB / ${Math.round(os.totalmem() / 1024 / 1024)}MB
